@@ -1,0 +1,33 @@
+name: 问题反馈
+description: 报告用量、窗口或启动问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "请勿上传 data 文件夹、原始聊天日志、认证文件或密钥。截图与导出请先脱敏。"
+  - type: input
+    id: version
+    attributes:
+      label: Token Bite 版本
+      placeholder: "例如 0.33.3-rc.1"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本与显示缩放
+      placeholder: "例如 Windows 11 x64，150%"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤
+      description: "做了什么、预期看到什么、实际看到什么？"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 补充信息或脱敏截图
+      description: "可补充 Codex 版本、是否首次启动、是否刚升级等信息。"

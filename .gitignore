@@ -1,0 +1,19 @@
+# Public showcase repository: documentation and approved media only.
+source/
+tests/
+.build/
+work/
+data/
+_internal/
+*.exe
+*.dll
+*.pyd
+*.pyc
+*.zip
+*.sqlite*
+*.db
+*.log
+auth.json
+settings.json
+follow.json
+.env*
