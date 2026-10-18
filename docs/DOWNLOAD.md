@@ -1,18 +1,18 @@
 # 下载与安装
 
-准备中的试用版：**v0.33.3-rc.1** · Windows 11 x64 · 免安装。
+当前试用版：**v0.33.3-rc.1** · Windows 11 x64 · 免安装。
 
-**安装包尚未公开下载，当前仅开放产品介绍与功能动图。程序附件仍保留在未发布的 Release 草稿中。**
+**[下载 Windows x64 程序包](https://github.com/Bernie311/Token-Bite/releases/download/v0.33.3-rc.1/TokenBite-v0.33.3-rc.1-windows-x64.zip)** · [打开发布页](https://github.com/Bernie311/Token-Bite/releases/tag/v0.33.3-rc.1)
 
-## 正式开放后下载哪个文件
+## 下载哪个文件
 
-正式开放后，请在本仓库 **Releases** 中选择 **v0.33.3-rc.1**。当前尚没有对外发布的版本，下面是预定附件说明与安装方法。
+在[本次发布页](https://github.com/Bernie311/Token-Bite/releases/tag/v0.33.3-rc.1)下方的 **Assets** 中选择以下附件，或直接点击表中的文件名。
 
 | 文件 | 用途 |
 |---|---|
-| `TokenBite-v0.33.3-rc.1-windows-x64.zip` | 完整免安装程序，正式开放后下载此文件 |
-| `SHA256SUMS.txt` | 下载文件的完整性校验值 |
-| `TokenBite-v0.33.3-rc.1-demo-videos.zip` | 可选：24 个功能演示的 MP4 视频 |
+| [`TokenBite-v0.33.3-rc.1-windows-x64.zip`](https://github.com/Bernie311/Token-Bite/releases/download/v0.33.3-rc.1/TokenBite-v0.33.3-rc.1-windows-x64.zip) | 完整免安装程序，下载此文件 |
+| [`SHA256SUMS.txt`](https://github.com/Bernie311/Token-Bite/releases/download/v0.33.3-rc.1/SHA256SUMS.txt) | 下载文件的完整性校验值 |
+| [`TokenBite-v0.33.3-rc.1-demo-videos.zip`](https://github.com/Bernie311/Token-Bite/releases/download/v0.33.3-rc.1/TokenBite-v0.33.3-rc.1-demo-videos.zip) | 可选：24 个功能演示的 MP4 视频 |
 | `Source code (zip / tar.gz)` | GitHub 自动生成的展示仓库快照，只含文档和媒体，不含程序 |
 
 试用版可能不在 GitHub 的 Latest 入口显示，请按版本标签选择。

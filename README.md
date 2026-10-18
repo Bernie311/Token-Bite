@@ -4,9 +4,9 @@
 
 Windows 11 x64 · 免安装 · 0.33.3-rc.1 试用版 · 闭源分发
 
-**当前仅开放产品介绍与动图预览，安装包尚未开放下载。**
+**[下载 Windows x64 试用版（v0.33.3-rc.1）](https://github.com/Bernie311/Token-Bite/releases/download/v0.33.3-rc.1/TokenBite-v0.33.3-rc.1-windows-x64.zip)** · [查看发布页](https://github.com/Bernie311/Token-Bite/releases/tag/v0.33.3-rc.1)
 
-[下载状态与安装说明](docs/DOWNLOAD.md) · [指标与常见问题](docs/FAQ.md) · [隐私说明](docs/PRIVACY.md)
+[安装与升级说明](docs/DOWNLOAD.md) · [指标与常见问题](docs/FAQ.md) · [隐私说明](docs/PRIVACY.md)
 
 <img src="media/gifs/overview.gif" width="720" alt="Token Bite：今日用量浮窗和用量明细总览，使用隔离演示数据">
 
@@ -162,11 +162,11 @@ Windows 11 x64 · 免安装 · 0.33.3-rc.1 试用版 · 闭源分发
 
 <a href="media/gifs/pin-drag.gif"><img src="media/gifs/pin-drag.gif" width="720" alt="置顶与拖动，隔离演示数据"></a>
 
-## 下载状态与使用方式
+## 下载与使用方式
 
-安装包目前保留在未发布的 Release 草稿中，暂不提供公开下载。以下步骤供正式开放后参考。
+当前已开放 Windows 11 x64 免安装试用版。下载程序包并完整解压后即可运行。
 
-1. 正式开放后，在本仓库的 **Releases** 中选择 **v0.33.3-rc.1**，下载 `TokenBite-v0.33.3-rc.1-windows-x64.zip`。
+1. [下载 Windows x64 程序包](https://github.com/Bernie311/Token-Bite/releases/download/v0.33.3-rc.1/TokenBite-v0.33.3-rc.1-windows-x64.zip)，或打开[本次发布页](https://github.com/Bernie311/Token-Bite/releases/tag/v0.33.3-rc.1)选择同名附件。
 2. 完整解压到可写文件夹，保留 `TokenMini.exe` 和同级 `_internal` 文件夹；双击 `TokenMini.exe`。无需另装 Python。
 3. 使用本机 Codex。首次读取可能需要等待；准确消耗在本地日志确认后更新。
 4. 点击浮窗的“用量明细”深入查看；右键可设置外观和窗口行为。

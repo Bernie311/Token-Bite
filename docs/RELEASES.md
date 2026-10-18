@@ -1,6 +1,6 @@
-# Token Bite 0.33.3-rc.1 · 拟发布说明
+# Token Bite 0.33.3-rc.1 · Windows 试用版
 
-> 安装包仍在未发布的 Release 草稿中，尚未公开下载；以下是准备中的版本说明。
+> 已开放公开下载，版本标记为试用预发布（Pre-release）。[打开发布页](https://github.com/Bernie311/Token-Bite/releases/tag/v0.33.3-rc.1)。
 
 把本机 Codex 的用量、额度和任务状态，放进一个 Windows 浮窗。
 
@@ -8,7 +8,7 @@
 
 ## 下载
 
-正式开放后，请在对应 Release 页面下方的 **Assets** 下载 `TokenBite-v0.33.3-rc.1-windows-x64.zip`，完整解压后双击 `TokenMini.exe`，保留同级 `_internal` 文件夹。无需另装 Python。
+[下载 Windows x64 程序包](https://github.com/Bernie311/Token-Bite/releases/download/v0.33.3-rc.1/TokenBite-v0.33.3-rc.1-windows-x64.zip)，或在[发布页](https://github.com/Bernie311/Token-Bite/releases/tag/v0.33.3-rc.1)下方的 **Assets** 中选择 `TokenBite-v0.33.3-rc.1-windows-x64.zip`，完整解压后双击 `TokenMini.exe`，保留同级 `_internal` 文件夹。无需另装 Python。
 
 `SHA256SUMS.txt` 提供校验值；`TokenBite-v0.33.3-rc.1-demo-videos.zip` 为可选的 24 段 MP4 演示。GitHub 自动生成的 Source code 文件只包含展示仓库文档和媒体，不包含程序。
 
@@ -46,3 +46,5 @@
 问题请提交到本仓库 Issues，附版本、系统版本、重现步骤和脱敏截图。不要公开认证信息、原始聊天日志或 `data` 文件夹。
 
 Token Bite 源代码不公开；使用条款与第三方许可随包提供。它是独立项目，与 OpenAI、Anthropic 无隶属或背书关系。
+
+[完整安装说明](https://github.com/Bernie311/Token-Bite/blob/main/docs/DOWNLOAD.md) · [隐私说明](https://github.com/Bernie311/Token-Bite/blob/main/docs/PRIVACY.md) · [使用条款](https://github.com/Bernie311/Token-Bite/blob/main/LICENSE.txt) · [第三方组件与素材说明](https://github.com/Bernie311/Token-Bite/blob/main/THIRD-PARTY-NOTICES.md)
