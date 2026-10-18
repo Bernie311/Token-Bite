@@ -10,7 +10,7 @@ Windows 11 x64 · 免安装 · 0.33.3-rc.1 试用版 · 闭源分发
 
 <img src="media/gifs/overview.gif" width="720" alt="Token Bite：今日用量浮窗和用量明细总览，使用隔离演示数据">
 
-动图以隔离演示数据为主；“趋势图放大与平移”按素材包标注采用已脱敏的真实统计快照，制作为离屏交互演示（非桌面录屏）。这些素材不作为性能测试或实体鼠标操作验收。
+工具、技能、消息趋势及大图操作使用同一历史时点的脱敏真实统计快照，由当前产品原生代码离屏生成（非桌面录屏）；其他动图仍使用隔离演示数据。离屏片段采用程序支持的纸感实色回退与示意光标，不作为实体鼠标、磨砂效果或性能验收。
 
 ## 一眼看到这次用了多少
 
@@ -108,39 +108,39 @@ Windows 11 x64 · 免安装 · 0.33.3-rc.1 试用版 · 闭源分发
 
 ### 滚动查看活动趋势
 
-从用量区向下滚动到工具调用趋势。
+从聊天排行向下滚动查看工具调用趋势。此冻结快照合计 6,152 次，四类曲线分别来自实际统计。
 
-<a href="media/gifs/scroll-trends.gif"><img src="media/gifs/scroll-trends.gif" width="560" alt="滚动查看活动趋势，隔离演示数据"></a>
+<a href="media/gifs/scroll-trends.gif?v=3c8c92774188"><img src="media/gifs/scroll-trends.gif?v=3c8c92774188" width="560" alt="滚动查看活动趋势，真实统计快照的原生离屏演示（非桌面录屏）"></a>
 
 ### 图例筛选与日期读数
 
-点击图例隐藏或恢复曲线，再按日期查看具体计数。
+点击终端命令图例隐藏／恢复曲线，再指向日期查看数值。10 月 15 日四类读数为 1,230／247／162／152；筛选只改变显示，合计和纵轴不变。
 
-<a href="media/gifs/chart-legend.gif"><img src="media/gifs/chart-legend.gif" width="720" alt="图例筛选与日期读数，隔离演示数据"></a>
+<a href="media/gifs/chart-legend.gif?v=612974546fa3"><img src="media/gifs/chart-legend.gif?v=612974546fa3" width="720" alt="图例筛选与日期读数，真实统计快照的原生离屏演示（非桌面录屏）"></a>
 
 ### 复原趋势图
 
-点击复原，将大图返回完整日期范围。
+点击复原，将 150% 的局部大图返回 100% 完整日期范围。复原只改变横向视口，保持原始数值和所选日期。
 
-<a href="media/gifs/chart-reset.gif"><img src="media/gifs/chart-reset.gif" width="720" alt="复原趋势图，隔离演示数据"></a>
+<a href="media/gifs/chart-reset.gif?v=8ca29a4b0fe9"><img src="media/gifs/chart-reset.gif?v=8ca29a4b0fe9" width="720" alt="复原趋势图，真实统计快照的原生离屏演示（非桌面录屏）"></a>
 
 ### 技能与用户消息趋势
 
-向下滚动，分别查看本地记录中的技能使用和用户消息。
+向下滚动，分别查看技能使用 131 次与用户消息 404 条。两类活动使用各自的真实曲线；部分日志未读取提示如实保留，统计不代表全部历史。
 
-<a href="media/gifs/skills-messages.gif"><img src="media/gifs/skills-messages.gif" width="560" alt="技能与用户消息趋势，隔离演示数据"></a>
+<a href="media/gifs/skills-messages.gif?v=073ed3408ef4"><img src="media/gifs/skills-messages.gif?v=073ed3408ef4" width="560" alt="技能与用户消息趋势，真实统计快照的原生离屏演示（非桌面录屏）"></a>
 
 ### 切换消息统计维度
 
-将消息趋势从按模型切换为按使用端。
+将 404 条用户消息从按模型切换为按使用端。此快照包含 Codex 桌面端 399 条、编辑器 5 条；没有虚构 CLI 或普通 ChatGPT 记录。
 
-<a href="media/gifs/message-dimensions.gif"><img src="media/gifs/message-dimensions.gif" width="720" alt="切换消息统计维度，隔离演示数据"></a>
+<a href="media/gifs/message-dimensions.gif?v=d3f4186384a6"><img src="media/gifs/message-dimensions.gif?v=d3f4186384a6" width="720" alt="切换消息统计维度，真实统计快照的原生离屏演示（非桌面录屏）"></a>
 
 ### 打开趋势大图
 
-从活动趋势右上角的放大入口进入独立大图。
+从工具调用趋势右上角的放大入口打开独立大图。父图与大图共用打开时的快照，合计均为 6,152 次。
 
-<a href="media/gifs/open-chart.gif"><img src="media/gifs/open-chart.gif" width="720" alt="打开趋势大图，隔离演示数据"></a>
+<a href="media/gifs/open-chart.gif?v=caceb41039d3"><img src="media/gifs/open-chart.gif?v=caceb41039d3" width="720" alt="打开趋势大图，真实统计快照的原生离屏演示（非桌面录屏）"></a>
 
 ## 更多窗口操作
 
